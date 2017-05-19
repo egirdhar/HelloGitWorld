@@ -2,7 +2,7 @@ class Sample {
 
 // main method     
 public static void main(String s []) {
-     String msg =  getMesssage("Arpit");
+     String msg =  getMessage("Arpit");
      System.out.println(msg); 
 }
 
