@@ -1,3 +1,15 @@
 node {
-echo 'Hello World !!!!!!!!!!'
+
+  stage 'checkout'
+  
+   checkout git 'https://github.com/egirdhar/HelloGitWorld.git'
+  
+  stage 'Compile'
+   bat ' javac Sample.java'        
+  
+  stage 'Unit tests'
+  
+  
+
 }
+
