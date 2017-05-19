@@ -6,7 +6,7 @@ public static void main(String s []) {
      System.out.println(msg); 
 }
 
-public static getMessage(String msg){
+public static String getMessage(String msg){
       return "Hi" + msg;
      
 }
