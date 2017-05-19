@@ -11,7 +11,7 @@ node {
      bat 'echo message'
   
   
-//  } 
+  } 
   stage 'Unit tests'
    echo ' this is for tests'
   
