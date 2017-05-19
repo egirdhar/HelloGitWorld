@@ -2,7 +2,7 @@ node {
 
   stage 'checkout'
   
-   checkout git 'https://github.com/egirdhar/HelloGitWorld.git'
+   git url:'https://github.com/egirdhar/HelloGitWorld.git'
   
   stage 'Compile'
    bat ' javac Sample.java'        
