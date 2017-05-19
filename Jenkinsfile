@@ -8,6 +8,7 @@ node {
    bat ' javac Sample.java'        
   
   stage 'Unit tests'
+   echo ' this is for tests'
   
   
 
