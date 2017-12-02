@@ -6,7 +6,7 @@ node {
   
   
   stage 'Compile'
-  withEnv(["PATH=${env.PATH};C:\\Program Files\Java\\jdk1.8.0_144\\bin"]){
+  withEnv(["PATH=${env.PATH};C:\\Program Files\\Java\\jdk1.8.0_144\\bin"]){
      bat "javac Sample.java  && java Sample" 
      bat 'echo message'
   
